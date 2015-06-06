@@ -1,0 +1,283 @@
+/* --------- Stylesheets  #B9D3EE   incorporation --------- */
+@import url("content.css");
+@import url("forms.css");
+@import url("templates.css");
+@import url("blocks.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* --------- Layout --------- */
+html {
+	
+	font-family:  Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	background: #36648B;	
+	
+		
+}
+body {
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	unicode-bidi: embed;
+	width: 920px;
+	margin: 0 auto;
+	background:  url("../img/content.png") top repeat-y;	
+
+	
+}
+#xo-canvas {
+	width: 920px;
+	margin: 0 auto;
+}
+#xo-canvas-content {
+   
+}
+
+	
+}
+#xo-page {
+	padding-top: 1px;   background: transparent;
+	
+	
+}
+/* --------- Header --------- */
+#xo-header {
+	background: url("../img/header.gif") no-repeat;
+	height: 100px;
+	
+}
+
+
+/* --- Logo --- */
+#xo-header img.logo {
+	float:	left; 
+	padding: 9px 33px 0 0;
+	padding-left:40px;
+	padding-top:10px;
+} 
+
+/* ---------------------- Dolphin nav ---------------------- */
+#dolphincontainer{
+	position:relative;
+	height:38px;
+	color:#E0E0E0;
+	background:#143D55;
+	width:100%;
+	font-family: Segoe UI, Tahoma, "Lucida Console", "courier new", monospace;
+	}
+
+#dolphinnav{
+	position:relative;
+	height:33px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:bold;
+	background:#fff url("../img/dolphin_bg.gif") repeat-x bottom left;
+	padding:0 0 0 20px;
+	}
+
+#dolphinnav ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	float:left;
+	}
+
+#dolphinnav ul li{
+	display:block;
+	float:left;
+	margin:0 1px;
+	}
+
+#dolphinnav ul li a{
+	display:block;
+	float:left;
+	color:#EAF3F8;
+	text-decoration:none;
+	padding:0 0 0 20px;
+	height:33px;
+	}
+
+#dolphinnav ul li a span{
+	padding:12px 20px 0 0;
+	height:21px;
+	float:left;
+	}
+
+#dolphinnav ul li a:hover{
+	color:#fff;
+	background:transparent url("../img/dolphin_bg-OVER.gif") repeat-x bottom left;
+	}
+
+#dolphinnav ul li a:hover span{
+	display:block;
+	width:auto;
+	cursor:pointer;
+	}
+
+#dolphinnav ul li a.current,#dolphinnav ul li a.current:hover{
+	color:#fff;
+	background:#1D6893 url("../img/dolphin_left-ON.gif") no-repeat top left;
+	line-height:275%;
+	}
+
+#dolphinnav ul li a.current span{
+	display:block;
+	padding:0 20px 0 0;
+	width:auto;
+	background:#1D6893 url("../img/dolphin_right-ON.gif") no-repeat top right;
+	height:33px;
+	}
+/* ---------------------- END Dolphin nav ---------------------- */
+
+
+.xo-userbar form {
+	display:							inline;
+	padding:							0px;
+}
+.xo-userbar button {
+	margin: 							0px -3px;
+	border:							0px none;
+	padding:							0px;
+	background:						transparent none;
+}
+.xo-userbar button img {
+	width: 							20px;
+	height: 						20px;
+}
+.xo-userbar img {
+	width: 							20px;
+	height: 						20px;
+}
+.xo-userbar input {
+	color: 							black;
+	font-size: 						1.2em;
+	background-color: 			inherit;
+}
+
+.xo-userbar a {
+	color: 							#FF4500;
+	
+	text-decoration: 				none;
+	background-color: 			inherit;
+	
+	font-weight:					bold;
+}
+.xo-uname {
+	color: 							#87af7b;
+	font-size:						1.6em;
+	font-weight:					bold;
+	background: 					inherit;
+}
+
+
+.xo-userbar{
+	height: 32px;
+	text-align: left;
+	float: right;
+	padding-right:60px;
+	padding-top:30px;
+}
+
+
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+    
+}
+
+/* --------- Footer --------- */
+#xo-footer {  
+	
+	background:  url("../img/footer.jpg");
+	width: 920px;
+	height:60px;
+	margin:0 auto;
+	
+}
+
+
+.xo-foottext{
+	font-size: 1.1em;
+	color: #000;
+	padding-top:13px;
+	
+	text-align: center;	
+	
+}
+.xo-foottext a{
+	color: #000;
+	
+}
+.xo-foottext a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+
+/* --------- Block main menu --------- */
+#mainmenu {
+	font-size : 1.1em;
+	
+	padding-bottom:20px;
+	
+}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 4px;
+  font-size: .8em; 
+  font-weight:					bold;
+  color:#191970;
+	
+}
+#mainmenu a .highlight {background-color: #fcc;}
+#mainmenu a:hover {color:#009ACD;}
+#mainmenu a.menuTop {
+padding-left: 15px;
+
+
+}
+#mainmenu a.menuMain {
+padding-left: 15px;
+font-size: .8em; 
+	 font-weight:					bold;
+
+
+}
+#mainmenu a.menuSub {
+  padding-left: 20px; color:#575757 ;
+  font-size: .7em;
+}
+#mainmenu a.menuSub:hover {}
+
+/* --------- Block user menu --------- */
+#usermenu {
+font-size: .9em; 
+padding-left: 15px;
+
+padding-bottom:20px;
+}
+#usermenu a {
+  display: block;
+  margin: 0; 
+  padding: 4px;
+}
+#usermenu a:hover {color:#009ACD}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background-color: #fcc;}
+
+
+
+
+
+
